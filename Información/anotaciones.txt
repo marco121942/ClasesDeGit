@@ -15,6 +15,7 @@ Git
 
 ->Con el .git-> la carpeta se llama repositorio
 ->El stage o escenario es antes del commit
+->Con git add . ->agregamos las carpetas al stage
 
 Comandos:
 git
@@ -30,3 +31,8 @@ git add .
 git add index.html
 git commit -m ""
 git checkout .
+git log
+git status -s ->"te brinda menos información" ->M->significa que fueron modificados , ??->es nueva
+git status -s -b ->nos muestra en la rama que nos encontramos
+git reset HEAD . ->quita del stage
+git reset HEAD css/estilos.css
