@@ -85,3 +85,10 @@ git config cord.autocrlf true
 
 
 Rama->es la linea de tiempo
+git branch nuevaRama
+git branch
+git checkout nuevaRama
+git branch -d nuevaRama
+
+
+Mezclando ramas
