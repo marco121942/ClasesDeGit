@@ -1,4 +1,32 @@
 Git
 -----
-
 -Herramienta de control de versiones  de un proyecto y saber quiém y qué fue lo que modificó
+-Es como una máquina de tiempo.
+
+
+-Git fue creado por Linus Torvalds en 2005 y ala vez creo linux.
+
+-tres pautas:
+1.-No cometer los mismos problemas.
+2.-Hacer un sistema parecido alos otros sitemas que no eran de código abierto.
+3.-Lograr que sea simple para utilizarlo.
+
+
+
+->Con el .git-> la carpeta se llama repositorio
+->El stage o escenario es antes del commit
+
+Comandos:
+git
+git  version
+git help
+clear
+git config --global user.name ""
+git config --global user.email ""
+git config --global -e ->para salir "Esc , :, q"
+git init
+git status
+git add .
+git add index.html
+git commit -m ""
+git checkout .
