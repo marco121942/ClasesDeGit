@@ -36,3 +36,14 @@ git status -s ->"te brinda menos información" ->M->significa que fueron modific
 git status -s -b ->nos muestra en la rama que nos encontramos
 git reset HEAD . ->quita del stage
 git reset HEAD css/estilos.css
+git add *.md
+git commit -> A->agregamos el texto ->para salir "Esc,:,W", apra que se guarde ->con la q sales pero no guardas
+git tag v1.0.0
+git tag
+git tag -D v1.0.0 ->borra
+git tag -a v1.0.0 -m "Esta es la versión donde se utiliza boostrap"
+git show v1.0.0
+git tag -a v1.0.2 cf15b5d6d5432632a77b46ed44e3cdea8a7c2b96 -m "Esta es la version beta del proyecto"
+git log --oneline --decorate --all --graph
+git config --global alias.lg "log --oneline --decorate --all --graph"
+
