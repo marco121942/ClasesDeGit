@@ -37,7 +37,7 @@ git status -s -b ->nos muestra en la rama que nos encontramos
 git reset HEAD . ->quita del stage
 git reset HEAD css/estilos.css
 git add *.md
-git commit -> A->agregamos el texto ->para salir "Esc,:,W", apra que se guarde ->con la q sales pero no guardas
+git commit -> A->agregamos el texto ->para salir "Esc,:,WW", para que se guarde y salir
 git tag v1.0.0
 git tag
 git tag -D v1.0.0 ->borra
@@ -46,4 +46,42 @@ git show v1.0.0
 git tag -a v1.0.2 cf15b5d6d5432632a77b46ed44e3cdea8a7c2b96 -m "Esta es la version beta del proyecto"
 git log --oneline --decorate --all --graph
 git config --global alias.lg "log --oneline --decorate --all --graph"
+comparando commit
+git diff cf15b5d
+git diff 
+git diff --staged
+git commit --amend -m "Agregamos estilos"
+git reset HEAD^
 
+
+regresar
+
+git reset --soft cf15b5d
+git checkout -- .
+git reset --mixed ba8b589
+git checkout -- .
+git reset --hard aa438bf
+
+Historial
+$ git reflog
+
+
+renombrar
+git mv readme.md nuevo.md
+movimiento readme
+git mv nuevo.md css/nuevo.md
+
+borrar
+git rm css/nuevo.md
+
+git checkout -- .
+
+
+Ignorando archivos
+.gitignore ->se aplica para archivos que git no estaba rastreando
+git rm --cached readme.md->borra el rastreo
+
+git config cord.autocrlf true
+
+
+Rama->es la linea de tiempo
