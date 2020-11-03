@@ -107,3 +107,29 @@ git rease master
 git rebase -i HEAD~3
 pink->lo reemplazas por la r luego esc,:wq y cambias el nombre del commit
 
+
+ git stash
+git stash list
+git stash pop
+git stash drop
+
+
+
+git remote
+
+git remote  -v
+
+
+git clone
+
+git clone ""  git
+
+git push ->subir
+git pull origin master ->bajar
+
+git fetch origin master
+
+fork
+pull request
+
+git push --tags
