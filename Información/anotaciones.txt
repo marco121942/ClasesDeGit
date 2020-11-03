@@ -102,3 +102,8 @@ Fast-forward ->mas facil
 recursive->esc-:wq
 CONFLICT (content): Merge conflict in index.html
 
+
+git rease master
+git rebase -i HEAD~3
+pink->lo reemplazas por la r luego esc,:wq y cambias el nombre del commit
+
